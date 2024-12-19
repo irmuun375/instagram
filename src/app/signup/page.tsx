@@ -15,7 +15,7 @@ function Page() {
         username: "",
         email: "",
         password: "",
-    });
+    });;
 
     const handleUsernameValue = (event: React.ChangeEvent<HTMLInputElement>) => {
         setUsername(event.target.value);
